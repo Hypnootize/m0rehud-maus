@@ -232,3 +232,13 @@ event DamagedPlayer
 	// your crosshair to be. So if you crosshair is green, the second line should
 	// also have that same value.
 }
+
+event CompetitiveGame_LowerChatWindow
+{
+}
+event CompetitiveGame_RestoreChatWindow
+{
+}
+event HudTournament_MoveChatWindow
+{
+}
