@@ -273,14 +273,14 @@ Batman
 	{
 		"controlname"	"CExLabel"
 		"fieldname"	"fogCrosshair"
-		
+
 		"visible"	"0"
 		"enabled"	"1"
 
 		"xpos"		"-3"
 		"ypos"		"2"
 		"zpos"		"2"
-		
+
 		"wide"		"f0"
 		"tall"		"480"
 
@@ -291,28 +291,28 @@ Batman
 		// "fogCrosshair"         - Pixelated and outlined
 		// "fogCrosshairPlain"    - Pixelated and not outlined
 		// "fogCrosshairSmooth"   - Antialiased, not outlined
-		
+
 
 		"labeltext"	"2"
 		//
 		// Choose your crosshair
-		// 
+		//
 		// Change the "1" to represent the crosshair you want displayed in the Crosshairs.jpg
 		// Remember, each resolution behaves differently, if your crosshair is skewed, not centered,
 		// you will have to play around with the "xpos", "ypos", "wide" and "tall" values.
 		// THERE ARE NO FIXED NUMBERS FOR THIS
 
 		"textAlignment"	"center"
-		
+
 		"fgcolor"	"255 255 255 255"
 		//
 		// Crosshair color
-		// 
+		//
 		// If you change this, remember to change the same value in HudAnimations_tf.txt
 		// Otherwise the crosshair will change back to the default white color after
 		// flashing upon giving damage.
 	}
-	
+
 // end fog crosshair
 // M0rehud Crosshairs Begin
 
@@ -320,7 +320,7 @@ Batman
 	{
     "visible"         "0"
     "visible_minmode" "0"
-  
+
     "xpos"            "c-7"
     "ypos"            "c-7"
     "wide"            "13"
@@ -332,14 +332,14 @@ Batman
     "zpos"            "1"
     "font"            "M0rexhairCross"
     "labelText"       "+"
-    "textAlignment"   "center" 
+    "textAlignment"   "center"
 	}
-  
+
 	M0rexhairCircle
 	{
     "visible"         "0"
     "visible_minmode" "0"
-    
+
 		"xpos"			      "c-100"
 		"ypos"			      "c-100"
 		"wide"			      "200"
@@ -351,9 +351,9 @@ Batman
     "zpos"            "1"
     "font"            "M0rexhairCircle"
     "labelText"       "o"
-    "textAlignment"   "center" 
+    "textAlignment"   "center"
 	}
-  
+
 	M0rexhairDot
 	{
     "visible"         "0"
@@ -370,10 +370,10 @@ Batman
     "zpos"            "1"
     "font"            "M0rexhairDot"
     "labelText"       "."
-    "textAlignment"   "center" 
+    "textAlignment"   "center"
 	}
 // End M0rehud Crosshairs
-	
+
 // Gunblades Crosshairs Begin
 	CrossHairKonrWings
 	{
@@ -390,8 +390,8 @@ Batman
 
 		"font"			"CrossHairKonrWings"
 		"labelText"		"Z"
-		"textAlignment"	"center"	
-		
+		"textAlignment"	"center"
+
 		"fgcolor"		"255 255 255 255"
 	}
 //Seekers Crosshair
@@ -428,11 +428,11 @@ Batman
 		"tall"			"200"
 
 		"labelText"		"0 0"
-		"textAlignment"	"center"	
-		
+		"textAlignment"	"center"
+
 		"fgcolor"		"255 0 0 0"
 	}
-	
+
 	xHairCircle
 	{
 		"controlName"	"CExLabel"
@@ -450,11 +450,11 @@ Batman
 		//"font"		"xHairCircleOutline"
 		"font"			"xHairCircle"
 		"labelText"		"o"
-		"textAlignment"	"center"	
-		
+		"textAlignment"	"center"
+
 		"fgcolor"		"255 255 255 100"
 	}
-	
+
 	   knucklescross
         {
                 "controlName"                                   "CExLabel"
@@ -470,7 +470,7 @@ Batman
                 "labelText"                                     "b"
                 "textAlignment"                                 "center"
               	"fgcolor"                                       "0 255 255 255"
-	}			
+	}
 	ScatterSpread
 	{
 		"controlName"	"CExLabel"
@@ -489,10 +489,10 @@ Batman
 		"labelText"		"0"
 		"textAlignment"	"center"
 		"outline"		"1"
-		
+
 		"fgcolor"		"255 255 255 255"
 	}
-	
+
 	BasicCross
 	{
 		"controlName"	"CExLabel"
@@ -509,11 +509,11 @@ Batman
 		//"font"		"CrosshairsOutline26"
 		"font"			"Crosshairs26"
 		"labelText"		"2"
-		"textAlignment"		"center"	
-		
+		"textAlignment"		"center"
+
 		"fgcolor"		"255 255 255 255"
 	}
-	
+
 	BasicCrossSmall
 	{
 		"controlName"	"CExLabel"
@@ -530,11 +530,11 @@ Batman
 		//"font"			"CrosshairsOutline18"
 		"font"			"Crosshairs18"
 		"labelText"		"2"
-		"textAlignment"	"center"	
-		
+		"textAlignment"	"center"
+
 		"fgcolor"		"255 255 255 255"
 	}
-	
+
 	BasicCrossLarge
 	{
 		"controlName"	"CExLabel"
@@ -551,11 +551,11 @@ Batman
 		//"font"		"CrosshairsOutline32"
 		"font"			"Crosshairs32"
 		"labelText"		"2"
-		"textAlignment"	"center"	
-		
+		"textAlignment"	"center"
+
 		"fgcolor"		"255 255 255 255"
 	}
-	
+
 	BasicDot
 	{
 		"controlName"	"CExLabel"
@@ -572,8 +572,8 @@ Batman
 		//"font"		"CrosshairsOutline24"
 		"font"			"Crosshairs24"
 		"labelText"		"3"
-		"textAlignment"	"center"	
-		
+		"textAlignment"	"center"
+
 		"fgcolor"		"255 255 255 255"
 	}
 
@@ -593,11 +593,11 @@ Batman
 		//"font"			"CrosshairsOutline34"
 		"font"			"Crosshairs34"
 		"labelText"		"8"
-		"textAlignment"	"center"	
-		
+		"textAlignment"	"center"
+
 		"fgcolor"		"255 255 255 255"
 	}
-	
+
 	ThinCircle
 	{
 		"controlName"	"CExLabel"
@@ -614,11 +614,11 @@ Batman
 		//"font"			"CrosshairsOutline34"
 		"font"			"Crosshairs34"
 		"labelText"		"9"
-		"textAlignment"	"center"	
-		
+		"textAlignment"	"center"
+
 		"fgcolor"		"255 255 255 255"
 	}
-	
+
 	WingsPlus
 	{
 		"controlName"	"CExLabel"
@@ -635,11 +635,11 @@ Batman
 		//"font"			"CrosshairsOutline34"
 		"font"			"CrosshairsOutline24"
 		"labelText"		"c"
-		"textAlignment"	"center"	
-		
+		"textAlignment"	"center"
+
 		"fgcolor"		"255 255 255 255"
 	}
-	
+
 	Wings
 	{
 		"controlName"	"CExLabel"
@@ -656,11 +656,11 @@ Batman
 		//"font"			"CrosshairsOutline34"
 		"font"			"Crosshairs34"
 		"labelText"		"d"
-		"textAlignment"	"center"	
-		
+		"textAlignment"	"center"
+
 		"fgcolor"		"255 255 255 255"
 	}
-	
+
 	WingsSmallDot
 	{
 		"controlName"	"CExLabel"
@@ -677,11 +677,11 @@ Batman
 		//"font"			"CrosshairsOutline34"
 		"font"			"Crosshairs34"
 		"labelText"		"f"
-		"textAlignment"	"center"	
-		
+		"textAlignment"	"center"
+
 		"fgcolor"		"0 0 0 0"
 	}
-	
+
 	WingsSmall
 	{
 		"controlName"	"CExLabel"
@@ -698,11 +698,11 @@ Batman
 		//"font"			"CrosshairsOutline34"
 		"font"			"Crosshairs34"
 		"labelText"		"g"
-		"textAlignment"	"center"	
-		
+		"textAlignment"	"center"
+
 		"fgcolor"		"255 255 255 255"
 	}
-	
+
 	OpenCross
 	{
 		"controlName"	"CExLabel"
@@ -719,11 +719,11 @@ Batman
 		"font"			"CrosshairsOutline24"
 		"font"			"Crosshairs24"
 		"labelText"		"i"
-		"textAlignment"	"center"	
-		
+		"textAlignment"	"center"
+
 		"fgcolor"		"255 255 255 255"
 	}
-	
+
 	OpenCrossDot
 	{
 		"controlName"	"CExLabel"
@@ -740,11 +740,11 @@ Batman
 		//"font"			"CrosshairsOutline24"
 		"font"			"Crosshairs24"
 		"labelText"		"h"
-		"textAlignment"	"center"	
-		
+		"textAlignment"	"center"
+
 		"fgcolor"		"255 255 255 255"
 	}
-	
+
 	ThinCross
 	{
 		"controlName"	"CExLabel"
@@ -761,11 +761,11 @@ Batman
 		//"font"		"SymbolOutline24"
 		"font"			"SymbolOutline32"
 		"labelText"		"+"
-		"textAlignment"	"center"	
-		
+		"textAlignment"	"center"
+
 		"fgcolor"		"255 255 0 255"
 	}
-	
+
 	KonrWings
 	{
 		"controlName"	"CExLabel"
@@ -783,10 +783,10 @@ Batman
 
 		"font"			"KonrWings16"
 		"labelText"		"i"
-		"textAlignment"	"center"	
-		
+		"textAlignment"	"center"
+
 		"fgcolor"		"255 255 255 255"
-	}	
+	}
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
@@ -808,7 +808,7 @@ Batman
 		"wide"	"f0"
 		"tall"	"480"
 	}
-	
+
 	HudObjectiveStatus
 	{
 		"fieldName" "HudObjectiveStatus"
@@ -818,8 +818,8 @@ Batman
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"480"
-	}	
-	
+	}
+
 	HudKothTimeStatus
 	{
 		"fieldName" "HudKothTimeStatus"
@@ -829,14 +829,14 @@ Batman
 		"ypos"	"0"
 		"wide"	"200"
 		"tall"	"60"
-		
+
 		"blue_active_xpos"			"54"
 		"red_active_xpos"			"104"
 		if_mvm
 		{
 			"visible"		"0"
 		}
-	}	
+	}
 
 	HudItemEffectMeter
 	{
@@ -850,7 +850,7 @@ Batman
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
-	
+
 	HudMedicCharge
 	{
 		"fieldName"		"HudMedicCharge"
@@ -861,7 +861,7 @@ Batman
 		"wide"			"f0"
 		"tall"			"480"
 	}
-	
+
 	HudDemomanCharge
 	{
 		"fieldName"		"HudDemomanCharge"
@@ -874,7 +874,7 @@ Batman
 		"tall"			"480"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
-	}	
+	}
 
 	HudBowCharge
 	{
@@ -941,8 +941,8 @@ Batman
 		"SelectedBoxClor" "0 0 0 220"
 		"SelectionNumberFg"	"200 187 161 255"
 		"NumberFont" "HudSelectionText"
-	}	
-	
+	}
+
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
@@ -955,7 +955,7 @@ Batman
 		"PaintBackgroundType"	"2"
 		"fgcolor"   			"255 255 255 255"
 	}
-	
+
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
@@ -973,7 +973,7 @@ Batman
 		"visible" "1"
 		"enabled" "1"
 		"MinimumWidth" "20"
-		"MaximumWidth" "20"            
+		"MaximumWidth" "20"
 		"StartRadius" "110"
 		"EndRadius" "110"
 		"MinimumHeight" "20"
@@ -991,7 +991,7 @@ Batman
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
 	}
-	
+
 	DisguiseStatus
 	{
 		"fieldName" "DisguiseStatus"
@@ -1015,7 +1015,7 @@ Batman
 		"priority"	"40"
 		"priority_lodef"	"5"
 	}
-	
+
 	CSpectatorTargetID
 	{
 		"fieldName" 	"CSpectatorTargetID"
@@ -1028,7 +1028,7 @@ Batman
 		"priority"	"40"
 		"priority_lodef" "35"
 	}
-	
+
 	CSecondaryTargetID
 	{
 		"fieldName" 	"CSecondaryTargetID"
@@ -1040,7 +1040,7 @@ Batman
 		"tall"	 	"30"
 		"priority"	"35"
 	}
-	
+
 	BuildingStatus_Spy
 	{
 		"fieldName" "BuildingStatus_Spy"
@@ -1049,13 +1049,13 @@ Batman
 		"xpos"		"0"	[$WIN32]
 		"ypos"		"0"	[$WIN32]
 		"xpos"		"32"	[$X360]
-		"ypos"		"16"	[$X360]		
+		"ypos"		"16"	[$X360]
 		"wide"		"640"
 		"tall"		"480"
-		
+
 		"PaintBackgroundType"	"2"
 	}
-	
+
 	BuildingStatus_Engineer
 	{
 		"fieldName" "BuildingStatus_Engineer"
@@ -1069,10 +1069,10 @@ Batman
 		"ypos_lodef"		"25"
 		"wide"		"f0"
 		"tall"		"480"
-		
+
 		"PaintBackgroundType"	"2"
 	}
-		
+
 	HudProgressBar
 	{
 		"fieldName" "HudProgressBar"
@@ -1097,10 +1097,10 @@ Batman
 		"tall"  "40"
 		"visible" "1"
 		"enabled" "1"
-		
+
 		"PaintBackgroundType"	"2"
 
-		"FlashColor" "HudIcon_Red"		
+		"FlashColor" "HudIcon_Red"
 
 		"icon_xpos"		"0"
 		"icon_ypos"		"2"
@@ -1112,7 +1112,7 @@ Batman
 		}
 	}
 
-	HudScenarioIcon 
+	HudScenarioIcon
 	{
 		"fieldName" "HudScenarioIcon"
 		"xpos"	"c110"
@@ -1124,9 +1124,9 @@ Batman
 
 		"PaintBackgroundType"	"2"
 
-		"IconColor"				"Hostage_Yellow"	
+		"IconColor"				"Hostage_Yellow"
 	}
-	
+
 	HudFlashlight
 	{
 		"fieldName" "HudFlashlight"
@@ -1136,7 +1136,7 @@ Batman
 		"ypos"	"370"
 		"wide"	"102"
 		"tall"	"20"
-		
+
 		"text_xpos" "8"
 		"text_ypos" "6"
 		"TextColor"	"255 170 0 220"
@@ -1153,10 +1153,10 @@ Batman
 		"tall"  "50"
 		"visible" "1"
 		"enabled" "1"
-		
+
 		"PaintBackgroundType"	"2"
 		"BackgroundOverrideColor" "0 0 0 128"
-		
+
 		"bar_xpos"		"50"
 		"bar_ypos"		"20"
 		"bar_height"	"8"
@@ -1165,10 +1165,10 @@ Batman
 		"speaker_ypos"	"8"
 		"count_xpos_from_right"	"10"	// Counts from the right side
 		"count_ypos"	"8"
-		
+
 		"icon_texture"	"vgui/hud/icon_commentary"
 		"icon_xpos"		"0"
-		"icon_ypos"		"0"		
+		"icon_ypos"		"0"
 		"icon_width"	"40"
 		"icon_height"	"40"
 
@@ -1212,9 +1212,9 @@ Batman
 		"LineSpacing"	  "0"
 		"CornerRadius"	  "4"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
-		
+
 		"TextFont"		"killfeed"
-		
+
 		"TeamBlue"		"0 255 255 255"
 		"TeamRed"		"255 63 0 255"
 		"IconColor"		"0 0 0 255"
@@ -1310,7 +1310,7 @@ Batman
 		"topoffset"		"0"
 	}
 
-	HudHistoryResource 
+	HudHistoryResource
 	{
 		"fieldName" "HudHistoryResource"
 		"visible" "0"
@@ -1403,7 +1403,7 @@ Batman
 		"wide"	 "640"
 		"tall"	 "480"
 	}
-	
+
 	HudScopeCharge
 	{
 		"fieldName" "HudScopeCharge"
@@ -1414,7 +1414,7 @@ Batman
 		"wide"	 "64"
 		"tall"	 "128"
 	}
-	
+
 	HudVoiceSelfStatus
 	{
 		"fieldName" "HudVoiceSelfStatus"
@@ -1441,21 +1441,21 @@ Batman
 		"tall" "400"
 
 		"item_wide"	"135"
-		
+
 		"show_avatar"		"0"
-		
+
 		"show_dead_icon"	"1"
 		"dead_xpos"			"1"
 		"dead_ypos"			"0"
 		"dead_wide"			"16"
 		"dead_tall"			"16"
-		
+
 		"show_voice_icon"	"1"
 		"icon_ypos"			"0"
 		"icon_xpos"			"15"
 		"icon_tall"			"16"
 		"icon_wide"			"16"
-		
+
 		"text_xpos"			"33"
 	}
 
@@ -1473,7 +1473,7 @@ Batman
 		"text_ypos"				"8"
 		"center_x"				"0"	// center text horizontally
 		"center_y"				"-1"	// align text on the bottom
-	}	
+	}
 
 	HudHintKeyDisplay
 	{
@@ -1492,7 +1492,7 @@ Batman
 
 		"PaintBackgroundType"	"2"
 	}
-	
+
 	overview
 	{
 		"fieldname" "overview"
@@ -1503,7 +1503,7 @@ Batman
 		"wide"	"640"
 		"tall"	"480"
 	}
-	
+
 	VguiScreenCursor
 	{
 		"fieldName" "VguiScreenCursor"
@@ -1538,12 +1538,12 @@ Batman
 		"enabled"				"1"
 		"icon_space"			"2"
 	}
-	
+
 	HUDAutoAim
 	{
 
-	}	
-	
+	}
+
 	HudHDRDemo
 	{
 
@@ -1572,7 +1572,7 @@ Batman
 		"wide"					"f0"
 		"tall"					"480"
 	}
-	
+
 	StatPanel
 	{
 		"fieldName"				"StatPanel"
@@ -1587,7 +1587,7 @@ Batman
 		"tall"					"0"
 		"tall_lodef"			"0"
 	}
-	
+
 	FreezePanel
 	{
 		"fieldName"				"FreezePanel"
@@ -1620,10 +1620,10 @@ Batman
 		"wide"					"100"
 		"tall"					"50"
 	}
-	
+
 	AnnotationsPanel
 	{
-		
+
 	}
 
 	WaitingForPlayersPanel
@@ -1636,7 +1636,7 @@ Batman
 		"wide"					"292"
 		"tall"					"64"
 	}
-	
+
 	"HudUpgradePanel"
 	{
 		"fieldName"		"HudUpgradePanel"
@@ -1645,7 +1645,7 @@ Batman
 		"xpos"			"c-200"
 		"ypos"			"260"
 		"wide"			"400"
-		"tall"			"160"		
+		"tall"			"160"
 	}
 
 	"HudChat"
@@ -1660,7 +1660,7 @@ Batman
 		"tall"	 		"120"
 		"PaintBackgroundType"	"2"
 	}
-	
+
 	"HudMenuEngyBuild"
 	{
 		"fieldName" 	"HudMenuEngyBuild"
@@ -1673,7 +1673,7 @@ Batman
 		"tall"			"195"
 		"PaintBackgroundType"	"0"
 	}
-	
+
 	"HudMenuEngyDestroy"
 	{
 		"fieldName" 	"HudMenuEngyDestroy"
@@ -1721,8 +1721,8 @@ Batman
 		"tall"			"200"	[$WIN32]
 		"tall"			"180"	[$X360]
 		"PaintBackgroundType"	"0"
-	}	
-	
+	}
+
 	HudDemomanPipes
 	{
 		"fieldName"		"HudDemomanPipes"
@@ -1732,7 +1732,7 @@ Batman
 		"ypos"			"0"	[$WIN32]
 		"wide"			"f0"
 		"tall"			"480"
-	}		
+	}
 
 	HudTeamGoal
 	{
@@ -1870,7 +1870,7 @@ Batman
 		"tall"					"100"
 	}
 
-	AchievementNotificationPanel	
+	AchievementNotificationPanel
 	{
 		"fieldName"				"AchievementNotificationPanel"
 		"visible"				"1"
@@ -1884,7 +1884,7 @@ Batman
 
 	CriticalPanel [$WIN32]
 	{
-		"fieldName"				"CriticalPanel"		
+		"fieldName"				"CriticalPanel"
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"r155"
@@ -1892,10 +1892,10 @@ Batman
 		"wide"					"150"
 		"tall"					"25"
 	}
-	
+
 	HudArenaClassLayout [$WIN32]
 	{
-		"fieldName"				"HudArenaClassLayout"		
+		"fieldName"				"HudArenaClassLayout"
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
@@ -1903,10 +1903,10 @@ Batman
 		"wide"					"f0"
 		"tall"					"320"
 	}
-	
+
 	HudArenaVsPanel [$WIN32]
 	{
-		"fieldName"				"HudArenaVsPanel"		
+		"fieldName"				"HudArenaVsPanel"
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
@@ -1914,18 +1914,18 @@ Batman
 		"wide"					"f0"
 		"tall"					"240"
 	}
-	
+
 	HudArenaPlayerCount [$WIN32]
 	{
-		"fieldName"				"HudArenaPlayerCount"		
+		"fieldName"				"HudArenaPlayerCount"
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
 		"ypos"					"0"
 		"wide"					"f0"
 		"tall"					"50"
-	}	
-	
+	}
+
 	"HudAchievementTracker"
 	{
 		"ControlName"	"EditablePanel"
@@ -1937,9 +1937,9 @@ Batman
 		"wide"			"200"
 		"tall"			"280"
 		"visible"		"1"
-		"enabled"		"1"	
+		"enabled"		"1"
 	}
-	
+
 	HudTrainingInfoMsg
 	{
 		"fieldName"				"HudTrainingInfoMsg"
@@ -1950,15 +1950,15 @@ Batman
 		"wide"					"200"
 		"tall"					"300"
 	}
-	
+
 	HudTrainingMsg
 	{
-		
+
 	}
-	
+
 	TrainingComplete
 	{
-		
+
 	}
 
 	HudInspectPanel
@@ -1972,7 +1972,7 @@ Batman
 		"wide"					"270"
 		"tall"					"180"
 	}
-	
+
 	HudTFCrosshair
 	{
 		"fieldName" "HudTFCrosshair"
@@ -1981,7 +1981,7 @@ Batman
 		"wide"	 "640"
 		"tall"	 "480"
 	}
-	
+
 	ItemQuickSwitchPanel
 	{
 		"fieldName"				"ItemQuickSwitchPanel"
@@ -1992,14 +1992,14 @@ Batman
 		"wide"			"f0"
 		"tall"			"480"
 	}
-	
+
 	ReplayReminder
 	{
 		"fieldName"		"ReplayReminder"
 		"visible"		"0"
 		"enable"		"1"
 	}
-	
+
 	MainMenuAdditions
 	{
 		"fieldName"		"MainMenuAdditions"
@@ -2010,7 +2010,7 @@ Batman
 		"zpos"			"0"
 		"wide"			"300"
 		"tall"			"100"
-	}	
+	}
 
 	CoachedByPanel
 	{
@@ -2034,11 +2034,11 @@ Batman
 		"wide"			"200"
 		"tall"			"0"
 	}
-	
+
 	"CHudVote"
 	{
 		"fieldName"		"CHudVote"
-		"xpos"			"0"			
+		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"640"
 		"tall"			"480"
@@ -2091,8 +2091,19 @@ Batman
 		"zpos"		"1"
 		"wide"		"f0"
 		"tall"		"480"
-		
+
 		"PaintBackgroundType"	"2"
+	}
+	"CurrencyStatusPanel"
+	{
+		"ControlName"		"CCurrencyStatusPanel"
+		"fieldName"			"CurrencyStatusPanel"
+		"xpos"				"c-377"
+		"ypos"				"r110"
+		"wide"				"100"
+		"tall"				"100"
+		"visible" 			"1"
+		"enabled" 			"1"
 	}
 	"CTFStreakNotice"
 	{
@@ -2130,7 +2141,7 @@ Batman
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
 	}
-	
+
 	"ItemAttributeTracker"
 	{
 		"fieldName" 	"ItemAttributeTracker"
@@ -2226,10 +2237,10 @@ Batman
 		"mouseinputenabled"		"0"
 		"alpha"					"100"
 	}
-	
+
 	"gamma"
 	// Enable this to have high gamma on windowed mode (also works
-	// in fullscreen) where mat_monitorgamma does not work. 
+	// in fullscreen) where mat_monitorgamma does not work.
 	// Useful to players who want high brightness in-game
 	// but not burn their eyes out on the desktop.
 	{
